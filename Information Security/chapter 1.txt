@@ -1,0 +1,59 @@
+1. What is meant by the CIA triad?.
+"CIA triad" stand for Confidentiality, Integrity, and Availability. The CIA triad is a common model that forms the basis for the development of security systems. They are used for finding vulnerabilities and methods for creating solutions.
+
+2. What is the difference between data integrity and system integrity?
+Data integrity refers to data accuracy, consistency, and reliability, while system integrity refers to the stability, security, and reliability of the systems that process and store data.
+
+3. List and briefly define the kinds of threat consequences and the types of threat actions which cause these consequences.
+
+Unauthozed Disclosure: A circumstance or event whereby an entity gains access to data for which the entity is not authorized.
+Attacks that cause Unauthozed Disclosure include:
+1. Exposure: Sensitive data are directly released to an unauthorized entity.
+2. Interception: An unauthorized entity directly accesses sensitive data traveling between authorized sources and destinations
+3. Inference. A threat action whereby an unauthorized entity indirectly accesses sensitive data (but not necessarily the data contianed in the communication) by reasoning from characteristics or by-productions of communications.
+4. Intrusion: An unauthorized entity gains access to sensitive data by circumventing a system's security protections.
+Deception: A circumstance or event that may result in an authorized entity receiving false data and believing it to be true.
+Attacks that cause Deception include:
+1. Masquerade: An unauthorized entity gains access to a system or peforms a malicious act by posing as an authorized entity.
+2. Falsification: False data deceive an authorized entity.
+3. Repudiation: An entity deceives another by falsely denying responsibility for an act.
+
+Disruption: A circumstance or event that interrupts or prevents the correct operation of system services and functions.
+Attacks that cause Disruption include:
+1. Incapacitation: Prevents or interrupts system operation by disabling a system component.
+2. Corruption: Undesirably alters system operation by adversely modifying system functions or data.
+3. Obstruction: A threat action that interrupts delivery of system services by hindering system operation.
+
+Usurpation : A circumstance or event that results in control of system services or functions by an unauthorized entity.
+Attacks that cause Usurpation include:
+1. Misappropriation: An entity assumes unauthorized logical or physical control of a system resource.
+2. Misuse: Causes a system component to perform a function or service that is detrimental to system security.
+
+
+4. List and briefly define the fundamental security design principles.
+The main secure design principles are the following:
+
+a) Economy of mechanism: Keep the design as simple and small as possible.
+b) Fail-safe defaults: Base access decisions on permission rather than exclusion.
+c) Complete mediation: Every access to every object must be checked for authority (there and then).
+d) Open design: The design (and the code) should not be considered secret. The secret is always data, like a password or a cryptographic key.
+e) Separation of privilege: It’s always safer if it takes two parties to agree on a decision than if one can do it alone.
+f) Least privilege: Operate with the minimal set of powers needed to get the job done.
+g) Least common mechanism: Minimize subsystems shared between or relied upon by mutually distrusting users.
+h) Psychological acceptability: Design security systems for ease of use for humans.
+i) Isolation is a principle that applies in three contexts. First, public access systems should be isolated from critical resources (data, processes, etc.) to prevent disclosure or tampering.Second, the processes and files of individual users should be isolated from one another except where it is explicitly desired.And finally, security mechanisms should be isolated in the senseof preventing access to those mechanisms.
+
+5. What is a security policy? What are the actions involved when implementing a security policy?
+Security policies provide guidance on the conduct required to protect data and intellectual property. Identify third-party vulnerabilities. To implement a security policy, do the complete the following actions: Enter the data types that you identified into Secure Perspective as Resources. Enter the roles that you identified into Secure Perspective as Actors. Enter the data interactions that you identified into Secure Perspective as Actions.
+
+
+
+
+
+
+
+
+
+
+
+
